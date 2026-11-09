@@ -2,6 +2,7 @@
 date = '2026-11-09T01:28:38Z'
 title = 'NoAiDarling'
 +++
+
 ```
 ~ $ uname
 Linux
@@ -9,79 +10,61 @@ Linux
 Darling [~]$ uname
 Darwin
 ```
-NoAiDarling
----
----
-NoAiDarling is a translation layer that lets you run macOS software on Linux
----
----
-Fast
----
-NoAiDarling runs macOS software directly without using a hardware emulator.
----
----
 
-Free
----
+# NoAiDarling
+
+NoAiDarling is a translation layer that lets you run macOS software on Linux
+
+## Fast
+
+NoAiDarling runs macOS software directly without using a hardware emulator.
+
+## Free
+
 Like Linux, NoAiDarling is free and open-source software.
 It is developed openly on GitHub and distributed under the GNU GPL license version 3.
----
----
-Compatible
----
+
+## Compatible
+
 NoAiDarling implements a complete Darwin environment. Mach, dyld, launchd — everything you'd expect.
----
----
 
-Easy to use
----
+## Easy to use
+
 NoAiDarling does most of the setup for you. Sit back and enjoy using your favorite software.
----
----
 
-Native
----
+## Native
+
 We aim to fully integrate apps running under Darling into the Linux desktop experience by making them look, feel and behave just like native Linux apps.
----
----
 
-That sounds a lot like Wine
----
+## That sounds a lot like Wine
+
 And it is! Wine lets you run Windows software on Linux, and Darling does the same for macOS software.
----
----
-Does it support GUI apps?
----
+
+## Does it support GUI apps?
+
 Almost! This took us a lot of time and effort, but we finally have basic experimental support for running simple graphical applications.
----
----
-Does it violate Apple's EULA?
----
+
+## Does it violate Apple's EULA?
+
 No! We only directly use those parts of Darwin that are released as fully free software.
----
----
-Does Darling in NoAiDarling mean anything?
----
+
+## Does Darling in NoAiDarling mean anything?
+
 Darling is a combination of “Darwin” and “Linux”. Darwin is the core operating system macOS and iOS are based on.
----
----
-Can I run NoAiDarling on Windows using WSL?
----
+
+## Can I run NoAiDarling on Windows using WSL?
+
 With WSL 2, yes! See the documentation for more details.
----
----
-Do you know about opensource.apple.com, GNUstep, The Cocotron and other projects?
----
+
+## Do you know about opensource.apple.com, GNUstep, The Cocotron and other projects?
+
 We do, and in fact, NoAiDarling is largely based on the original Darwin source code published by Apple. We use The Cocotron as a basis for our Cocoa implementation, along with the Apportable Foundation and various bits of GNUstep.
----
----
-Do you have plans for supporting iOS apps?
----
+
+## Do you have plans for supporting iOS apps?
+
 Yes, in the long run, we'd like to be able to run iOS apps on ARM devices (like most Android phones). A significant challenge here would be to write our own implementation of UIKit. Come talk to us if you're interested in working on this!
----
----
-How do I contribute?
----
+
+## How do I contribute?
+
 Start by reading the documentation and our blog to get familiar with NoAiDarling internals. Then, come and join us on GitHub. It's great if you have experience in developing for macOS or iOS, but it's absolutely not required to start contributing.
----
 
