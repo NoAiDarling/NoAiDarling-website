@@ -1,4 +1,4 @@
-baseURL = 'https://darlingtester2.github.io/NoAiDarling-website'
+baseURL = 'https://noaidarling.github.io/NoAiDarling-website'
 locale = 'en-us'
 title = 'NoAiDarling'
 theme = "nojs"
