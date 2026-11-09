@@ -1,0 +1,52 @@
+baseURL = 'https://darlingtester2.github.io/NoAiDarling-website'
+locale = 'en-us'
+title = 'NoAiDarling'
+theme = "nojs"
+description = 'run macOS software on Linux'
+
+[markup]
+ [markup.goldmark]
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.passthrough]
+        enable = true
+        [markup.goldmark.extensions.passthrough.delimit]
+          block = [['\[', '\]']]
+          inline = [['\(', '\)']]
+  [markup.highlight]
+    noClasses = false
+
+[menus]
+  [[menus.main]]
+    name = 'Home'
+    pageRef = '/'
+    weight = 1
+
+  [[menus.main]]
+    name = 'Install'
+    pageRef = 'https://darlingtester2.github.io/NoAiDarling-docs'
+    weight = 2
+
+  [[menus.main]]
+    name = 'Docs'
+    pageRef = 'https://darlingtester2.github.io/NoAiDarling-docs'
+    weight = 3
+
+[[menus.main]]
+    name = 'Blog'
+    pageRef = '/blog'
+    weight = 4
+
+  [[menus.main]]
+    name = 'Application Database'
+    pageRef = '/Work-in-progress'
+    weight = 5
+
+  [[menus.main]]
+    name = 'GitHub'
+    pageRef = 'https://github.com/darlingtester2/NoAiDarling'
+    weight = 6
+
+  [[menus.main]]
+    name = 'Discord'
+    pageRef = 'https://discord.gg/C7YnZpezjg'
+    weight = 7
