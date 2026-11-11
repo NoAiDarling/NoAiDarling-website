@@ -1,4 +1,4 @@
-baseURL = 'https://noaidarling.hamishmb.com/'
+baseURL = 'https://noaidarling.hamishmb.com'
 locale = 'en-us'
 title = 'NoAiDarling'
 theme = "nojs"
